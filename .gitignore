@@ -55,3 +55,7 @@ docs/_build/
 
 # PyBuilder
 target/
+
+# DeepSEA resource files
+deepsea_test/
+deepsea_train/
