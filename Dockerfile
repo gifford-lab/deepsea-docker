@@ -29,4 +29,4 @@ COPY *.mat /root/deepsea/input/
 
 WORKDIR /root/deepsea
 
-CMD /root/torch/install/bin/th main.lua -save results -epochSize 1000 -batchSize 4 -windowsize 200 -verbose
+CMD /root/torch/install/bin/th main.lua -save results -verbose
