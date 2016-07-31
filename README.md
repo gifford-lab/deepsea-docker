@@ -1,8 +1,6 @@
 # deepsea-docker 
 
-This contains a Docker image for the DeepSEA method.  The code is
-based on v0.93 from
-[here](http://deepsea.princeton.edu/media/code/deepsea.v0.93.tar.gz).
+This contains a Docker image for **training** a new DeepSEA model ([v0.93](http://deepsea.princeton.edu/media/code/deepsea.v0.93.tar.gz)). If you are looking for a docker that **predicts** with the published DeepSEA model on 919 epigenomics features without re-training, check out [our another repo](https://github.com/gifford-lab/deepsea-predict-docker).
 
 ### Building the image
 
